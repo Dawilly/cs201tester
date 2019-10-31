@@ -1,0 +1,844 @@
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-0.o cda-0-0.c
+gcc -Wall -Wextra -g -std=c99 -c integer.c
+gcc -Wall -Wextra -g -std=c99 -c da.c
+gcc -Wall -Wextra -g -std=c99 -c cda.c
+gcc -Wall -Wextra -g -std=c99 -c stack.c
+gcc -Wall -Wextra -g -std=c99 -c queue.c
+gcc -Wall -Wextra -g -std=c99 -c real.c
+gcc -Wall -Wextra -g -std=c99 -c string.c
+gcc -Wall -Wextra -g -std=c99 cda-0-0.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-1.o cda-0-1.c
+gcc -Wall -Wextra -g -std=c99 cda-0-1.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-10.o cda-0-10.c
+gcc -Wall -Wextra -g -std=c99 cda-0-10.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+-------------------------------
+TEST #1...
+
+Compiling cda-0-0 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #2...
+
+Compiling cda-0-1 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #3...
+
+Compiling cda-0-10 with user's code.
+No error!
+Executing with valgrind...
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-11.o cda-0-11.c
+gcc -Wall -Wextra -g -std=c99 cda-0-11.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-12.o cda-0-12.c
+gcc -Wall -Wextra -g -std=c99 cda-0-12.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #4...
+
+Compiling cda-0-11 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #5...
+
+Compiling cda-0-12 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TESTmake: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-13.o cda-0-13.c
+gcc -Wall -Wextra -g -std=c99 cda-0-13.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-14.o cda-0-14.c
+gcc -Wall -Wextra -g -std=c99 cda-0-14.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-15.o cda-0-15.c
+gcc -Wall -Wextra -g -std=c99 cda-0-15.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+ #6...
+
+Compiling cda-0-13 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #7...
+
+Compiling cda-0-14 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #8...
+
+Compiling cda-0-15 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matmake: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-16.o cda-0-16.c
+gcc -Wall -Wextra -g -std=c99 cda-0-16.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-17.o cda-0-17.c
+gcc -Wall -Wextra -g -std=c99 cda-0-17.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+0a1,10
+> INTEGER test of CDA, insertions at the tail
+> items: ((1))
+> items: (displaying first and last 100 elements)
+> 65690 89661 15042 130061 151796 157068 179642 67592 169066 177433 166568 61759 66976 13821 25742 179216 152389 53750 50718 139125 171485 102433 188307 36204 284 94262 51067 39930 147981 92011 76806 111262 42271 88838 4885 141609 180216 29663 70128 155758 161764 83371 98254 176981 177052 39866 6233 175265 162248 177646 184278 35715 29313 162879 13504 15960 34672 80312 68738 189115 182345 1815 72322 119341 133396 57763 82258 112031 4963 93270 59562 39842 90819 73266 33507 97560 183574 96642 158713 146527 15138 39646 143875 91225 82647 13412 139832 82549 55666 82421 74256 187283 7720 169788 2075 114603 176666 150761 188184 125440 ... 51833 69002 86601 131364 165869 15000 51485 115500 137741 98071 47307 148905 18863 175412 125875 147292 162896 24236 57889 120897 42703 172073 53148 96115 29394 51110 184127 63399 178579 5742 181000 174375 61540 59407 10271 35400 8413 183316 187258 134708 165830 175612 78046 55114 133884 63246 96148 160946 92292 159376 92870 37797 58309 45103 2710 154431 21690 20665 35070 12423 172788 176050 159397 118837 23363 10313 165201 99775 115329 125137 16901 168839 75626 138329 111389 8014 108679 91432 177120 175826 180694 45081 80356 35419 171992 159831 132336 37440 174234 10871 54885 71967 49056 51549 29728 155025 69574 58483 1023 1676
+> 
+> size is 190046
+> items: (displaying first and last 100 elements)
+> 65690 89661 15042 130061 151796 157068 179642 67592 169066 177433 166568 61759 66976 13821 25742 179216 152389 53750 50718 139125 171485 102433 188307 36204 284 94262 51067 39930 147981 92011 76806 111262 42271 88838 4885 141609 180216 29663 70128 155758 161764 83371 98254 176981 177052 39866 6233 175265 162248 177646 184278 35715 29313 162879 13504 15960 34672 80312 68738 189115 182345 1815 72322 119341 133396 57763 82258 112031 4963 93270 59562 39842 90819 73266 33507 97560 183574 96642 158713 146527 15138 39646 143875 91225 82647 13412 139832 82549 55666 82421 74256 187283 7720 169788 2075 114603 176666 150761 188184 125440 ... 4957 74358 13284 67938 9712 125440 148423 181648 110716 62084 2266 98230 42802 70840 23344 23352 12778 64870 172291 85777 142061 182414 162232 74115 79608 133596 102038 32229 28030 175287 187388 151979 142456 144639 5717 188962 133845 130475 11406 71193 33002 55148 128828 125987 36552 54338 155973 116320 151531 151494 147436 151134 177846 43373 178412 162526 11568 156409 187309 143361 121988 103862 132381 78557 137202 97222 36522 68085 32131 95834 108283 41867 14352 106354 18991 81582 175778 75001 133991 94239 39671 21845 132029 136668 47496 184658 29180 121737 117014 91299 16124 123090 86691 2228 7711 147936 134034 159727 141970 50132
+> 
+> size is 380092
+ches exactly!
+-------------------------------
+-------------------------------
+TEST #9...
+
+Compiling cda-0-16 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #10...
+
+Compiling cda-0-17 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+the test FAILED at this point
+-------------------------------
+-------------------------------
+TEST #11...
+
+Compiling cda-0-18 withmake: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-18.o cda-0-18.c
+gcc -Wall -Wextra -g -std=c99 cda-0-18.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-19.o cda-0-19.c
+gcc -Wall -Wextra -g -std=c99 cda-0-19.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-2.o cda-0-2.c
+gcc -Wall -Wextra -g -std=c99 cda-0-2.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+ user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #12...
+
+Compiling cda-0-19 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #13...
+
+Compiling cda-0-2 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+----------------make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-20.o cda-0-20.c
+gcc -Wall -Wextra -g -std=c99 cda-0-20.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-21.o cda-0-21.c
+gcc -Wall -Wextra -g -std=c99 cda-0-21.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-3.o cda-0-3.c
+gcc -Wall -Wextra -g -std=c99 cda-0-3.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+---------------
+-------------------------------
+TEST #14...
+
+Compiling cda-0-20 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #15...
+
+Compiling cda-0-21 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #16...
+
+Compiling cda-0-3 with user's code.
+No error!
+Executimake: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-4.o cda-0-4.c
+gcc -Wall -Wextra -g -std=c99 cda-0-4.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-5.o cda-0-5.c
+gcc -Wall -Wextra -g -std=c99 cda-0-5.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+ng with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #17...
+
+Compiling cda-0-4 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #18...
+
+Compiling cda-0-5 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+----------------make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-6.o cda-0-6.c
+gcc -Wall -Wextra -g -std=c99 cda-0-6.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-7.o cda-0-7.c
+gcc -Wall -Wextra -g -std=c99 cda-0-7.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-8.o cda-0-8.c
+gcc -Wall -Wextra -g -std=c99 cda-0-8.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+---------------
+TEST #19...
+
+Compiling cda-0-6 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #20...
+
+Compiling cda-0-7 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #21...
+
+Compiling cda-0-8 with user's code.
+No error!
+Executing with valgrind...
+No leaks possimake: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-9.o cda-0-9.c
+gcc -Wall -Wextra -g -std=c99 cda-0-9.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-0.o da-0-0.c
+gcc -Wall -Wextra -g -std=c99 da-0-0.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+ble!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #22...
+
+Compiling cda-0-9 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #23...
+
+Compiling da-0-0 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #24...
+
+Compilmake: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-1.o da-0-1.c
+gcc -Wall -Wextra -g -std=c99 da-0-1.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-10.o da-0-10.c
+gcc -Wall -Wextra -g -std=c99 da-0-10.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-11.o da-0-11.c
+gcc -Wall -Wextra -g -std=c99 da-0-11.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+ing da-0-1 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #25...
+
+Compiling da-0-10 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #26...
+
+Compiling da-0-11 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+--make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-12.o da-0-12.c
+gcc -Wall -Wextra -g -std=c99 da-0-12.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-13.o da-0-13.c
+gcc -Wall -Wextra -g -std=c99 da-0-13.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-14.o da-0-14.c
+gcc -Wall -Wextra -g -std=c99 da-0-14.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+-----------------------------
+-------------------------------
+TEST #27...
+
+Compiling da-0-12 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #28...
+
+Compiling da-0-13 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #29...
+
+Compiling da-0-14 with user's code.
+No ermake: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-15.o da-0-15.c
+gcc -Wall -Wextra -g -std=c99 da-0-15.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-16.o da-0-16.c
+gcc -Wall -Wextra -g -std=c99 da-0-16.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+ror!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #30...
+
+Compiling da-0-15 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #31...
+
+Compiling da-0-16 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+----make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-17.o da-0-17.c
+gcc -Wall -Wextra -g -std=c99 da-0-17.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-18.o da-0-18.c
+gcc -Wall -Wextra -g -std=c99 da-0-18.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-2.o da-0-2.c
+gcc -Wall -Wextra -g -std=c99 da-0-2.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+---------------------------
+TEST #32...
+
+Compiling da-0-17 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #33...
+
+Compiling da-0-18 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #34...
+
+Compiling da-0-2 with user's code.
+No error!
+Executing with valgrind...
+No make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-3.o da-0-3.c
+gcc -Wall -Wextra -g -std=c99 da-0-3.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-4.o da-0-4.c
+gcc -Wall -Wextra -g -std=c99 da-0-4.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #35...
+
+Compiling da-0-3 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #36...
+
+Compiling da-0-4 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #37.make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-5.o da-0-5.c
+gcc -Wall -Wextra -g -std=c99 da-0-5.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-6.o da-0-6.c
+gcc -Wall -Wextra -g -std=c99 da-0-6.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-7.o da-0-7.c
+gcc -Wall -Wextra -g -std=c99 da-0-7.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+..
+
+Compiling da-0-5 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #38...
+
+Compiling da-0-6 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #39...
+
+Compiling da-0-7 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches examake: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-8.o da-0-8.c
+gcc -Wall -Wextra -g -std=c99 da-0-8.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-9.o da-0-9.c
+gcc -Wall -Wextra -g -std=c99 da-0-9.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+ctly!
+-------------------------------
+-------------------------------
+TEST #40...
+
+Compiling da-0-8 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #41...
+
+Compiling da-0-9 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #42...
+
+Compiling queue-0-0 with user's codmake: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o queue-0-0.o queue-0-0.c
+gcc -Wall -Wextra -g -std=c99 queue-0-0.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o queue-0-1.o queue-0-1.c
+gcc -Wall -Wextra -g -std=c99 queue-0-1.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o queue-0-10.o queue-0-10.c
+gcc -Wall -Wextra -g -std=c99 queue-0-10.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+e.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #43...
+
+Compiling queue-0-1 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #44...
+
+Compiling queue-0-10 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-----------------------make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o queue-0-2.o queue-0-2.c
+gcc -Wall -Wextra -g -std=c99 queue-0-2.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o queue-0-3.o queue-0-3.c
+gcc -Wall -Wextra -g -std=c99 queue-0-3.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o queue-0-4.o queue-0-4.c
+gcc -Wall -Wextra -g -std=c99 queue-0-4.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+--------
+-------------------------------
+TEST #45...
+
+Compiling queue-0-2 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #46...
+
+Compiling queue-0-3 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #47...
+
+Compiling queue-0-4 with user's code.
+No error!
+Executing make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o queue-0-5.o queue-0-5.c
+gcc -Wall -Wextra -g -std=c99 queue-0-5.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o queue-0-6.o queue-0-6.c
+gcc -Wall -Wextra -g -std=c99 queue-0-6.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #48...
+
+Compiling queue-0-5 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #49...
+
+Compiling queue-0-6 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+---------------make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o queue-0-7.o queue-0-7.c
+gcc -Wall -Wextra -g -std=c99 queue-0-7.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o queue-0-8.o queue-0-8.c
+gcc -Wall -Wextra -g -std=c99 queue-0-8.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o queue-0-9.o queue-0-9.c
+gcc -Wall -Wextra -g -std=c99 queue-0-9.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+----------------
+TEST #50...
+
+Compiling queue-0-7 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #51...
+
+Compiling queue-0-8 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #52...
+
+Compiling queue-0-9 with user's code.
+No error!
+Executing with valgrind...
+No leakmake: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o stack-0-0.o stack-0-0.c
+gcc -Wall -Wextra -g -std=c99 stack-0-0.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o stack-0-1.o stack-0-1.c
+gcc -Wall -Wextra -g -std=c99 stack-0-1.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+s possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #53...
+
+Compiling stack-0-0 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #54...
+
+Compiling stack-0-1 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #5make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o stack-0-10.o stack-0-10.c
+gcc -Wall -Wextra -g -std=c99 stack-0-10.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o stack-0-2.o stack-0-2.c
+gcc -Wall -Wextra -g -std=c99 stack-0-2.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o stack-0-3.o stack-0-3.c
+gcc -Wall -Wextra -g -std=c99 stack-0-3.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+5...
+
+Compiling stack-0-10 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #56...
+
+Compiling stack-0-2 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #57...
+
+Compiling stack-0-3 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your outputmake: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o stack-0-4.o stack-0-4.c
+gcc -Wall -Wextra -g -std=c99 stack-0-4.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o stack-0-5.o stack-0-5.c
+gcc -Wall -Wextra -g -std=c99 stack-0-5.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+ matches exactly!
+-------------------------------
+-------------------------------
+TEST #58...
+
+Compiling stack-0-4 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #59...
+
+Compiling stack-0-5 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #60...
+
+Compiling stack-0make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o stack-0-6.o stack-0-6.c
+gcc -Wall -Wextra -g -std=c99 stack-0-6.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o stack-0-7.o stack-0-7.c
+gcc -Wall -Wextra -g -std=c99 stack-0-7.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o stack-0-8.o stack-0-8.c
+gcc -Wall -Wextra -g -std=c99 stack-0-8.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+-6 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #61...
+
+Compiling stack-0-7 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #62...
+
+Compiling stack-0-8 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+------make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o stack-0-9.o stack-0-9.c
+gcc -Wall -Wextra -g -std=c99 stack-0-9.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+-------------------------
+-------------------------------
+TEST #63...
+
+Compiling stack-0-9 with user's code.
+No error!
+Executing with valgrind...
+No leaks possible!
+Your output matches exactly!
+-------------------------------
+TEST COMPLETE
+
+Tests passed: 62
+Test failed: 1
+Number of tests with memory leaks: 0
+Number of tests with proper memory management: 63
+There are test failures, you need to resubmit.

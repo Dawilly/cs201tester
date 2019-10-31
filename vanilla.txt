@@ -1,0 +1,768 @@
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-0.o cda-0-0.c
+gcc -Wall -Wextra -g -std=c99 -c integer.c
+gcc -Wall -Wextra -g -std=c99 -c da.c
+gcc -Wall -Wextra -g -std=c99 -c cda.c
+gcc -Wall -Wextra -g -std=c99 -c stack.c
+gcc -Wall -Wextra -g -std=c99 -c queue.c
+gcc -Wall -Wextra -g -std=c99 -c real.c
+gcc -Wall -Wextra -g -std=c99 -c string.c
+gcc -Wall -Wextra -g -std=c99 cda-0-0.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-1.o cda-0-1.c
+gcc -Wall -Wextra -g -std=c99 cda-0-1.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-10.o cda-0-10.c
+gcc -Wall -Wextra -g -std=c99 cda-0-10.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+-------------------------------
+TEST #1...
+
+Compiling cda-0-0 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #2...
+
+Compiling cda-0-1 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #3...
+
+Compiling cda-0-10 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-11.o cda-0-11.c
+gcc -Wall -Wextra -g -std=c99 cda-0-11.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-12.o cda-0-12.c
+gcc -Wall -Wextra -g -std=c99 cda-0-12.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-13.o cda-0-13.c
+gcc -Wall -Wextra -g -std=c99 cda-0-13.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+------------
+TEST #4...
+
+Compiling cda-0-11 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #5...
+
+Compiling cda-0-12 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #6...
+
+Compiling cda-0-13 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TESTmake: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-14.o cda-0-14.c
+gcc -Wall -Wextra -g -std=c99 cda-0-14.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-15.o cda-0-15.c
+gcc -Wall -Wextra -g -std=c99 cda-0-15.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-16.o cda-0-16.c
+gcc -Wall -Wextra -g -std=c99 cda-0-16.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+ #7...
+
+Compiling cda-0-14 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #8...
+
+Compiling cda-0-15 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #9...
+
+Compiling cda-0-16 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #10...
+
+Compilinmake: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-17.o cda-0-17.c
+gcc -Wall -Wextra -g -std=c99 cda-0-17.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-18.o cda-0-18.c
+gcc -Wall -Wextra -g -std=c99 cda-0-18.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-19.o cda-0-19.c
+gcc -Wall -Wextra -g -std=c99 cda-0-19.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+g cda-0-17 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #11...
+
+Compiling cda-0-18 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #12...
+
+Compiling cda-0-19 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #13...
+
+Compiling cda-0-2 withmake: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-2.o cda-0-2.c
+gcc -Wall -Wextra -g -std=c99 cda-0-2.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-20.o cda-0-20.c
+gcc -Wall -Wextra -g -std=c99 cda-0-20.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-21.o cda-0-21.c
+gcc -Wall -Wextra -g -std=c99 cda-0-21.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-3.o cda-0-3.c
+gcc -Wall -Wextra -g -std=c99 cda-0-3.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+ user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #14...
+
+Compiling cda-0-20 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #15...
+
+Compiling cda-0-21 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #16...
+
+Compiling cda-0-3 with user's code.
+Nmake: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-4.o cda-0-4.c
+gcc -Wall -Wextra -g -std=c99 cda-0-4.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-5.o cda-0-5.c
+gcc -Wall -Wextra -g -std=c99 cda-0-5.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-6.o cda-0-6.c
+gcc -Wall -Wextra -g -std=c99 cda-0-6.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+o error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #17...
+
+Compiling cda-0-4 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #18...
+
+Compiling cda-0-5 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #19...
+
+Compiling cda-0-6 with user's code.
+No error!
+Executinmake: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-7.o cda-0-7.c
+gcc -Wall -Wextra -g -std=c99 cda-0-7.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-8.o cda-0-8.c
+gcc -Wall -Wextra -g -std=c99 cda-0-8.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o cda-0-9.o cda-0-9.c
+gcc -Wall -Wextra -g -std=c99 cda-0-9.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+g...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #20...
+
+Compiling cda-0-7 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #21...
+
+Compiling cda-0-8 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #22...
+
+Compiling cda-0-9 with user's code.
+No error!
+Executing...
+Your output make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-0.o da-0-0.c
+gcc -Wall -Wextra -g -std=c99 da-0-0.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-1.o da-0-1.c
+gcc -Wall -Wextra -g -std=c99 da-0-1.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-10.o da-0-10.c
+gcc -Wall -Wextra -g -std=c99 da-0-10.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+matches exactly!
+-------------------------------
+-------------------------------
+TEST #23...
+
+Compiling da-0-0 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #24...
+
+Compiling da-0-1 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #25...
+
+Compiling da-0-10 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+--make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-11.o da-0-11.c
+gcc -Wall -Wextra -g -std=c99 da-0-11.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-12.o da-0-12.c
+gcc -Wall -Wextra -g -std=c99 da-0-12.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-13.o da-0-13.c
+gcc -Wall -Wextra -g -std=c99 da-0-13.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+-----------------------------
+-------------------------------
+TEST #26...
+
+Compiling da-0-11 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #27...
+
+Compiling da-0-12 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #28...
+
+Compiling da-0-13 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-14.o da-0-14.c
+gcc -Wall -Wextra -g -std=c99 da-0-14.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-15.o da-0-15.c
+gcc -Wall -Wextra -g -std=c99 da-0-15.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-16.o da-0-16.c
+gcc -Wall -Wextra -g -std=c99 da-0-16.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+------------
+-------------------------------
+TEST #29...
+
+Compiling da-0-14 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #30...
+
+Compiling da-0-15 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #31...
+
+Compiling da-0-16 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+----make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-17.o da-0-17.c
+gcc -Wall -Wextra -g -std=c99 da-0-17.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-18.o da-0-18.c
+gcc -Wall -Wextra -g -std=c99 da-0-18.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-2.o da-0-2.c
+gcc -Wall -Wextra -g -std=c99 da-0-2.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+---------------------------
+TEST #32...
+
+Compiling da-0-17 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #33...
+
+Compiling da-0-18 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #34...
+
+Compiling da-0-2 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+----------------------make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-3.o da-0-3.c
+gcc -Wall -Wextra -g -std=c99 da-0-3.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-4.o da-0-4.c
+gcc -Wall -Wextra -g -std=c99 da-0-4.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-5.o da-0-5.c
+gcc -Wall -Wextra -g -std=c99 da-0-5.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+---------
+TEST #35...
+
+Compiling da-0-3 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #36...
+
+Compiling da-0-4 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #37...
+
+Compiling da-0-5 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #38..make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-6.o da-0-6.c
+gcc -Wall -Wextra -g -std=c99 da-0-6.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-7.o da-0-7.c
+gcc -Wall -Wextra -g -std=c99 da-0-7.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-8.o da-0-8.c
+gcc -Wall -Wextra -g -std=c99 da-0-8.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+.
+
+Compiling da-0-6 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #39...
+
+Compiling da-0-7 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #40...
+
+Compiling da-0-8 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #41...
+
+Compiling da-0-9 make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o da-0-9.o da-0-9.c
+gcc -Wall -Wextra -g -std=c99 da-0-9.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o queue-0-0.o queue-0-0.c
+gcc -Wall -Wextra -g -std=c99 queue-0-0.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o queue-0-1.o queue-0-1.c
+gcc -Wall -Wextra -g -std=c99 queue-0-1.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #42...
+
+Compiling queue-0-0 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #43...
+
+Compiling queue-0-1 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #44...
+
+Compiling queue-0-10 with user'make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o queue-0-10.o queue-0-10.c
+gcc -Wall -Wextra -g -std=c99 queue-0-10.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o queue-0-2.o queue-0-2.c
+gcc -Wall -Wextra -g -std=c99 queue-0-2.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o queue-0-3.o queue-0-3.c
+gcc -Wall -Wextra -g -std=c99 queue-0-3.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o queue-0-4.o queue-0-4.c
+gcc -Wall -Wextra -g -std=c99 queue-0-4.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+s code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #45...
+
+Compiling queue-0-2 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #46...
+
+Compiling queue-0-3 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #47...
+
+Compiling queue-0-4 with user's code.
+No make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o queue-0-5.o queue-0-5.c
+gcc -Wall -Wextra -g -std=c99 queue-0-5.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o queue-0-6.o queue-0-6.c
+gcc -Wall -Wextra -g -std=c99 queue-0-6.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o queue-0-7.o queue-0-7.c
+gcc -Wall -Wextra -g -std=c99 queue-0-7.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #48...
+
+Compiling queue-0-5 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #49...
+
+Compiling queue-0-6 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #50...
+
+Compiling queue-0-7 with user's code.
+No error!
+Execmake: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o queue-0-8.o queue-0-8.c
+gcc -Wall -Wextra -g -std=c99 queue-0-8.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o queue-0-9.o queue-0-9.c
+gcc -Wall -Wextra -g -std=c99 queue-0-9.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o stack-0-0.o stack-0-0.c
+gcc -Wall -Wextra -g -std=c99 stack-0-0.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+uting...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #51...
+
+Compiling queue-0-8 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #52...
+
+Compiling queue-0-9 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #53...
+
+Compiling stack-0-0 with user's code.
+No error!
+Executing...
+Yomake: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o stack-0-1.o stack-0-1.c
+gcc -Wall -Wextra -g -std=c99 stack-0-1.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o stack-0-10.o stack-0-10.c
+gcc -Wall -Wextra -g -std=c99 stack-0-10.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o stack-0-2.o stack-0-2.c
+gcc -Wall -Wextra -g -std=c99 stack-0-2.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+ur output matches exactly!
+-------------------------------
+-------------------------------
+TEST #54...
+
+Compiling stack-0-1 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #55...
+
+Compiling stack-0-10 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #56...
+
+Compiling stack-0-2 with user's code.
+No error!
+Executing...
+Your output make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o stack-0-3.o stack-0-3.c
+gcc -Wall -Wextra -g -std=c99 stack-0-3.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o stack-0-4.o stack-0-4.c
+gcc -Wall -Wextra -g -std=c99 stack-0-4.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o stack-0-5.o stack-0-5.c
+gcc -Wall -Wextra -g -std=c99 stack-0-5.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+matches exactly!
+-------------------------------
+-------------------------------
+TEST #57...
+
+Compiling stack-0-3 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #58...
+
+Compiling stack-0-4 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #59...
+
+Compiling stack-0-5 with user's code.
+No error!
+Executing...
+Your output matches examake: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o stack-0-6.o stack-0-6.c
+gcc -Wall -Wextra -g -std=c99 stack-0-6.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o stack-0-7.o stack-0-7.c
+gcc -Wall -Wextra -g -std=c99 stack-0-7.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o stack-0-8.o stack-0-8.c
+gcc -Wall -Wextra -g -std=c99 stack-0-8.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+ctly!
+-------------------------------
+-------------------------------
+TEST #60...
+
+Compiling stack-0-6 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #61...
+
+Compiling stack-0-7 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+-------------------------------
+TEST #62...
+
+Compiling stack-0-8 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-----make: Entering directory '/home/daweil/CS201/cs201tester/working'
+cc    -c -o stack-0-9.o stack-0-9.c
+gcc -Wall -Wextra -g -std=c99 stack-0-9.o integer.o da.o cda.o stack.o queue.o real.o string.o -o assign -lm
+make: Leaving directory '/home/daweil/CS201/cs201tester/working'
+--------------------------
+-------------------------------
+TEST #63...
+
+Compiling stack-0-9 with user's code.
+No error!
+Executing...
+Your output matches exactly!
+-------------------------------
+TEST COMPLETE
+
+Tests passed: 63
+Test failed: 0
+All tests passed!
